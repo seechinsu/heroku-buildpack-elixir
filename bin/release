@@ -5,5 +5,5 @@ cat <<EOF
 addons:
   []
 default_process_types:
-  web: mix run --no-halt
+  worker: mix run --no-halt
 EOF
